@@ -1,0 +1,6 @@
+c:\users\sochi\documents\visual studio 2013\Projects\Sudoku - Dawid Sokół\Sudoku - Dawid Sokół\bin\Debug\Sudoku - Dawid Sokół.exe.config
+c:\users\sochi\documents\visual studio 2013\Projects\Sudoku - Dawid Sokół\Sudoku - Dawid Sokół\obj\Debug\Sudoku - Dawid Sokół.csprojResolveAssemblyReference.cache
+c:\users\sochi\documents\visual studio 2013\Projects\Sudoku - Dawid Sokół\Sudoku - Dawid Sokół\bin\Debug\Sudoku - Dawid Sokół.exe
+c:\users\sochi\documents\visual studio 2013\Projects\Sudoku - Dawid Sokół\Sudoku - Dawid Sokół\bin\Debug\Sudoku - Dawid Sokół.pdb
+c:\users\sochi\documents\visual studio 2013\Projects\Sudoku - Dawid Sokół\Sudoku - Dawid Sokół\obj\Debug\Sudoku - Dawid Sokół.exe
+c:\users\sochi\documents\visual studio 2013\Projects\Sudoku - Dawid Sokół\Sudoku - Dawid Sokół\obj\Debug\Sudoku - Dawid Sokół.pdb
