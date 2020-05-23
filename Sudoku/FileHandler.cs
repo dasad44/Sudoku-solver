@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO;
 
-namespace Sudoku___Dawid_Sokół
+namespace Sudoku
 {
-    class FileHandler :IFileHandler
+    class FileHandler: IFileHandler
     {
         public string[] numbers = File.ReadAllLines(@"sudoku.txt");
         public StreamReader file = new StreamReader("sudoku.txt");
@@ -34,7 +34,7 @@ namespace Sudoku___Dawid_Sokół
             {
                 for (int j = 0; j < 9; j++)
                 {
-                    Console.Write(boardintarray[i,j]);
+                    Console.Write(boardintarray[i, j]);
                 }
                 Console.WriteLine();
             }

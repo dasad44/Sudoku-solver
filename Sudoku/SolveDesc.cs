@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sudoku___Dawid_Sokół
+namespace Sudoku
 {
     class SolveDesc : NotSolveDesc
     {
-
     }
 }

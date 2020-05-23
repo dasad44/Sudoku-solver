@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sudoku___Dawid_Sokół
+namespace Sudoku
 {
-    interface ISolveDesc
+    interface IsolveDesc
     {
         void DescNotSolvedSudoku();
         void DescSolvedSudoku();

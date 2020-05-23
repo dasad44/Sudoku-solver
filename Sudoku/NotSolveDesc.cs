@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sudoku___Dawid_Sokół
+namespace Sudoku
 {
-    class NotSolveDesc :ISolveDesc
+    class NotSolveDesc
     {
         public void DescNotSolvedSudoku()
         {
