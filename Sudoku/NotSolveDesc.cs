@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sudoku
 {
-    class NotSolveDesc
+    class NotSolveDesc : INotSolveDesc
     {
         public void DescNotSolvedSudoku()
         {

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Sudoku
 {
-    class SolveSudoku
+    class SolveSudoku : ISolveSudoku
     {
         public int[,] sudoku = new int[9, 9];
         public int[,] currentsudoku = new int[9, 9];
-        bool can_insert(int x, int y, int value)
+        public bool can_insert(int x, int y, int value)
         {
             for (int i = 0; i < 9; i++)
             {
@@ -22,7 +22,7 @@ namespace Sudoku
             return true;
         }
 
-        bool next(int x, int y)
+        public bool next(int x, int y)
         {
             if (x == 8 && y == 8)
             {

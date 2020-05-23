@@ -45,7 +45,8 @@
   <ItemGroup>
     <Compile Include="FileHandler.cs" />
     <Compile Include="IFileHandler.cs" />
-    <Compile Include="IsolveDesc.cs" />
+    <Compile Include="INotSolveDesc.cs" />
+    <Compile Include="ISolveSudoku.cs" />
     <Compile Include="NotSolveDesc.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
