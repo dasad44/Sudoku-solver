@@ -10,6 +10,6 @@ namespace Sudoku
     {
         void ConvertToInt();
         void ShowNumbers();
-        void FileCloser();
+        void CloseFile();
     }
 }

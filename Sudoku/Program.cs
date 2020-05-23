@@ -38,7 +38,7 @@ namespace Sudoku
             {
                 Console.WriteLine("Sudoku can not be solved!");
             }
-            filehandler.FileCloser();
+            filehandler.CloseFile();
 
             Console.ReadKey();
         }

@@ -18,7 +18,6 @@ namespace Sudoku
 
         public void ConvertToInt()
         {
-            //numberstoint = Array.ConvertAll<string, int>(numbers, int.Parse);
             for (int i = 0; i < numbers.Length; i++)
             {
                 string[] tmp = numbers[i].Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
@@ -40,7 +39,7 @@ namespace Sudoku
             }
         }
 
-        public void FileCloser()
+        public void CloseFile()
         {
             file.Close();
         }
