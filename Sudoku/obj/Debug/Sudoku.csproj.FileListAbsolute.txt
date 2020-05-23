@@ -1,0 +1,6 @@
+C:\Users\SoChi\source\repos\Sudoku-solver\Sudoku\bin\Debug\Sudoku.exe.config
+C:\Users\SoChi\source\repos\Sudoku-solver\Sudoku\bin\Debug\Sudoku.exe
+C:\Users\SoChi\source\repos\Sudoku-solver\Sudoku\bin\Debug\Sudoku.pdb
+C:\Users\SoChi\source\repos\Sudoku-solver\Sudoku\obj\Debug\Sudoku.csprojAssemblyReference.cache
+C:\Users\SoChi\source\repos\Sudoku-solver\Sudoku\obj\Debug\Sudoku.exe
+C:\Users\SoChi\source\repos\Sudoku-solver\Sudoku\obj\Debug\Sudoku.pdb
