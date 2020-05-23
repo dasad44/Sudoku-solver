@@ -10,13 +10,11 @@ namespace Sudoku___Dawid_Sokół
     {
         static void Main(string[] args)
         {
-            Board board = new Board();
-            Description desc = new Description();
+            NotSolveDesc desc = new NotSolveDesc();
+            SolveDesc solvedesc = new SolveDesc();
             desc.DescNotSolvedSudoku();
-            board.CreateBoard();
             FileHandler filehandler = new FileHandler();
 
-            Console.WriteLine();
             SolveSudoku solvesudoku = new SolveSudoku();
             filehandler.ConvertToInt();
             filehandler.ShowNumbers();
@@ -24,8 +22,7 @@ namespace Sudoku___Dawid_Sokół
             solvesudoku.sudoku = filehandler.boardintarray;
             solvesudoku.currentsudoku = solvesudoku.sudoku;
             Console.WriteLine();
-            Console.WriteLine("-------------------------------------------");
-            desc.DescSolvedSudoku();
+            solvedesc.DescSolvedSudoku();
             if (solvesudoku.solve(0, 0))
             {
                 for (int i = 0; i < 9; i++)
@@ -39,7 +36,7 @@ namespace Sudoku___Dawid_Sokół
             }
             else
             {
-                Console.WriteLine("Sudoku Can't be solved!");
+                Console.WriteLine("Sudoku can not be solved!");
             }
             filehandler.FileCloser();
 

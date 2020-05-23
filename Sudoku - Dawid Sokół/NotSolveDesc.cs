@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sudoku___Dawid_Sokół
 {
-    class Description :IDescription
+    class NotSolveDesc :IDescription
     {
         public void DescNotSolvedSudoku()
         {
@@ -15,7 +15,6 @@ namespace Sudoku___Dawid_Sokół
         public void DescSolvedSudoku()
         {
             Console.WriteLine("Solved Sudoku:");
-            Console.WriteLine();
         }
     }
 }

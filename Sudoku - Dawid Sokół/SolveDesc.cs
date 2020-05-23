@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Sudoku___Dawid_Sokół
 {
-    interface IBoard
+    class SolveDesc : NotSolveDesc
     {
-        void CreateBoard();
+
     }
 }
