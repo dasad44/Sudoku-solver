@@ -43,7 +43,7 @@
   <ItemGroup>
     <Compile Include="NotSolveDesc.cs" />
     <Compile Include="FileHandler.cs" />
-    <Compile Include="IDescription.cs" />
+    <Compile Include="ISolveDesc.cs" />
     <Compile Include="IFileHandler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

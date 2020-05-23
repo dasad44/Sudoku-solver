@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sudoku___Dawid_Sokół
 {
-    interface IDescription
+    interface ISolveDesc
     {
         void DescNotSolvedSudoku();
         void DescSolvedSudoku();
